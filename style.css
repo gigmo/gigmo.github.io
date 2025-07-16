@@ -1,0 +1,74 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(243, 31, 31);
+  color: whitesmoke;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:rgb(243, 31, 31);
+  color: white;
+}
+
+
+.thing {
+    display: block;
+    background-color: snow;
+    padding: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    border:  1px solid black;
+}
+
+.portraits {
+    display: block;
+    background-color:azure;
+    padding: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    border:  1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Or contain, depending on desired behavior */
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.hermit {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
