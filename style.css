@@ -1,7 +1,20 @@
 /* Add a black background color to the top navigation */
+h1{
+  text-align:center;
+}
+
 .topnav {
-  background-color:white;
+  background-color:snow;
   overflow: hidden;
+  position: fixed;
+  top: 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.topnav ul{ 
+  display: inline-block;
 }
 
 /* Style the links inside the navigation bar */
@@ -71,4 +84,3 @@
   margin-right: auto;
   width: 20%;
 }
-
